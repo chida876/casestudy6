@@ -5,7 +5,7 @@ user_data = <<-EOF
 yum install -y aws-cli
 
 # Shell script to read files from S3 bucket
-aws s3 cp s3://your_bucket_name/ /path/to/local/directory --recursive
+aws s3 cp s3://case6_bucket_871996/ /path/to/local/directory --recursive
 
 # Install CloudWatch Logs agent
 wget https://s3.amazonaws.com/aws-cloudwatch/downloads/latest/awslogs-agent-setup.py
